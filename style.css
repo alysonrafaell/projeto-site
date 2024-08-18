@@ -54,6 +54,14 @@ nav{
 nav > a:hover{
     background-color: #19733E;
 }
+main{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 4px 5px 12px gray;
+    border-radius: 20px;
+}
 .noticia > h2{
     text-align: center;
     font-family: 'android', serif;
@@ -74,19 +82,7 @@ p > a{
     text-decoration: none;
     font-weight: bold;
     color:#19733E;
-    font-family: Arial;
-   
-}
-.ta{
-    display: inline-block;
-}
-main{
-    width: 80%;
-    background-color: white;
-    padding: 10px;
-    margin: auto;
-    box-shadow: 4px 5px 12px gray;
-    border-radius: 20px;
+    font-family: Arial;  
 }
 .assunto > h2{
     text-align: left;
@@ -102,6 +98,11 @@ main{
     border-radius: 10px 0px 0px 10px;
    margin: 20px;
 }
+.assunto > img.pqn{
+    text-align: right;
+     display: flex;
+     margin: auto;
+  }
 strong{
     color: #1a5a37;
     font-weight: bold;
@@ -115,11 +116,7 @@ strong{
     line-height: 2em;
    text-align: justify;
 }
- .assunto > img.pqn{
-  text-align: right;
-   display: flex;
-   margin: auto;
-}
+ 
 picture > img{
     width: 100%;
 }
